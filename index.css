@@ -65,19 +65,36 @@ body{
 #about h1{
 	padding-bottom: 2rem;
 	text-shadow: 1px 1px 1px #000;
+	text-transform: uppercase;
 }
 
 #projects{
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-top: 2rem;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
 #projects h1{
 	padding-bottom: 2rem;
-	text-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 10px #000;
+	color: white;
+	text-transform: uppercase;
 }
+
+.card{
+	padding-bottom: 2rem;
+}
+
+#projects {
+	background-image: url("img/card3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+
 #contact{
 	padding-left: 10%;
 	padding-right: 10%;
@@ -87,7 +104,7 @@ body{
 
 
 #footer{
-	background-color: #233138;
+	background-color: #646a73;
 	color: white;
 	padding-top: 2rem;
 	font-size: 80%;
