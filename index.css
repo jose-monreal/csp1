@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:3;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#carousel{
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top:0rem;
+	padding-bottom: 3rem;
+}
+
+#about{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+#projects{
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+#contact{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
