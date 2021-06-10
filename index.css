@@ -109,3 +109,8 @@ body{
 	padding-top: 2rem;
 	font-size: 80%;
 }
+
+ #gmap_canvas{
+	height: 100%;
+	width: 100%;
+}
