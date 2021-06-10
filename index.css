@@ -33,12 +33,14 @@ body{
 .carousel-caption{
 	position: absolute;
 	top: 50%;
+	transform: translateY(-60%);
 }
 
 .carousel-caption h1{
 	font-size: 500%;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 20px #000;
+	position: relative;
 }
 
 .carousel-caption h3{
@@ -113,4 +115,5 @@ body{
  #gmap_canvas{
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
