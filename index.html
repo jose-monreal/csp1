@@ -14,8 +14,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
 
-	<title>CSP1</title>
+    <link rel="icon" type="image/png" href="./img/logo.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+	<title>JL Monreal</title>
 </head>
 <body>
 
@@ -28,23 +38,23 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#about">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#projects">PROJECTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
       </li>
   </div>
 </div>
 </nav>
-<hr class="my-4">
+<!-- <hr class="my-4"> -->
 
 <!-- Jumbotron or Carousel -->
 <section id="carousel">
@@ -92,7 +102,7 @@
 <hr class="my-4">
 
 <!-- About Me -->
-<section id="about">
+<section id="about" data-aos="zoom-in" data-aos-duration="1500">
 <div class="container-fluid padding">
 	<div class="container-fluid padding">
 		<div class="row welcome text-center">
@@ -140,16 +150,16 @@
     <img src="img/card2.jpg" class="card-img-top" alt="img/card2.jpg">
     <div class="card-body">
       <h5 class="card-title">Back End Web Development</h5>
-      <p class="card-text">A work in progress</p>
-      <a href="./csp2.html" class="btn btn-dark" target="_blank">View Project</a>
+      <p class="card-text">Focuses on server side development. Used JavaScipt, Node.js, MongoDB, RESTful API, and Expressjs for this project</p>
+      <a href="https://mighty-crag-87517.herokuapp.com" class="btn btn-dark" target="_blank">View Project</a>
     </div>
   </div>
   <div class="card">
     <img src="img/card2.jpg" class="card-img-top" alt="img/card2.jpg">
     <div class="card-body">
       <h5 class="card-title">Full Stack Web Development</h5>
-      <p class="card-text">A work in progress</p>
-      <a href="./csp3.html" class="btn btn-dark" target="_blank">View Project</a>
+      <p class="card-text">Development of Front-End and Back-End application. Used ReactJS and React-Bootstrap for this project</p>
+      <a href="https://tender-raman-4439da.netlify.app/" class="btn btn-dark" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -193,39 +203,66 @@
 
 
 <!-- Footer Section -->
-<section id="footer">
+<!-- <section id="footer">
 <footer>
 <div class="container-fluid">
-	<div class="row text-justify">
-		<div class="col-md-4">
+	<div class="row">
+		<div class="col-md-4 col-sm-12">
 			<h5>Links</h5>
 			<hr class="light">
 			<a href="#" class="text-decoration-none text-reset"><p>Home</p></a>
 			<a href="#about" class="text-decoration-none text-reset"><p>About</h4></a>
 			<a href="#projects" class="text-decoration-none text-reset"><p>Project</p></a>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-12 ">
 			<h5>Connect</h5>
 			<hr class="light">
-			<a href="https://www.facebook.com/" class="text-decoration-none text-reset" target="_blank"><p>Facebook</p></a>
-			<a href="https://www.instagram.com/" class="text-decoration-none text-reset" target="_blank"><p>Instagram</h4></a>
-			<a href="https://ph.linkedin.com/" class="text-decoration-none text-reset" target="_blank"><p>LinkedIn</p></a>
+
+      <a href="https://www.linkedin.com/in/jose-lito-monreal-ii-14b05b218/" class="fa fa-linkedin fa-lg" target="_blank"></a>
+
+      <a href="https://github.com/jose-monreal" class="fa fa-github fa-lg"  target="_blank"></a>
+
+      <a href="mailto:monrealii.jl@gmail.com" class="fa fa-google fa-lg"  target="_blank"></a>
+
+
+
+
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-12">
 			<h5>Contact Us</h5>
 			<hr class="light">
 			<p>(02) 8 123 4567</p>
-			<p>0917 123 4567 (Globe)</p>
-			<p>0932 123 4567(Smart)</p>
-			<p>monreal2.jl@gmail.com</p>
+			<p><i class="fas fa-mobile-alt fa-lg"></i>      0917 590 8734</p>
+			<p><i class="fas fa-envelope-open fa-lg"></i>    monrealii.jl@gmail.com</p>
+			<p><i class="fas fa-envelope-open fa-lg"></i>    monreal2.jl@gmail.com</p>
 		</div>
 	</div>
 </div>
-</footer>
+</footer> -->
+
+<a href="#" class="float" id="menu-share">
+<i class="fa fa-share my-float"></i>
+</a>
+<ul id="ul-float">
+<li><a href="https://www.linkedin.com/in/jose-lito-monreal-ii-14b05b218/" target="_blank">
+<i class="fa fa-linkedin fa-lg my-float"></i>
+</a></li>
+<li><a href="https://github.com/jose-monreal" target="_blank">
+<i class="fa fa-github fa-lg my-float" ></i>
+</a></li>
+<li><a href="mailto:monrealii.jl@gmail.com" target="_blank">
+<i class="fa fa-google fa-lg my-float" ></i>
+</a></li>
+</ul>
  <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
